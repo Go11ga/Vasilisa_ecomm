@@ -1,0 +1,36 @@
+.title__inner {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.title__header {
+    font-weight: 400;
+    font-size: 40px;
+    line-height: 59px;
+    color: $black;
+}
+
+.title__icon {
+    width: 32px;
+    height: 28px;
+}
+
+.title__text {
+    margin-top: 5px;
+    padding-right: 44px;
+
+    font-family: 'Ubuntu', sans-serif;
+    font-weight: 300;
+    font-style: normal;
+    font-size: 16px;
+    line-height: 26px;
+    color: $black;
+}
+
+
+
+
+
+
+

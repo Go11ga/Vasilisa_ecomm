@@ -1,0 +1,45 @@
+.header__inner {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    height: 112px;
+}
+
+.header__item {
+    display: flex;
+}
+
+.header__btn {
+    margin-left: 40px;
+    width: 25px;
+    height: 25px;
+
+    border: 0;
+    background-color: transparent;
+    cursor: pointer;
+
+    transition: all .2s linear;
+
+    position: relative;
+
+    &:hover {
+        box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
+    }
+}
+
+.header__icon {
+    width: 21px;
+    height: 18px;
+
+    fill: none;
+
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    z-index: 1;
+
+    transform: translate(-50%, -50%);
+}
+
+

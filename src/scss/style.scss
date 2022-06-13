@@ -1,0 +1,56 @@
+/* Variables */
+@import "vars";
+
+
+/* Default styles */
+html {
+
+}
+
+body {
+    font-family: 'Circe';
+    font-weight: 300;
+    font-style: normal;
+    font-size: 16px;
+    color: $black;
+
+    background-color: $white;
+}
+
+*,
+*:before,
+*:after {
+    margin: 0;
+    padding: 0;
+
+    box-sizing: border-box;
+}
+
+/* Blocks */
+@import "blocks/header";
+@import "blocks/helpers";
+@import "blocks/logo";
+@import "blocks/nav";
+@import "blocks/lmenu";
+@import "blocks/filter";
+@import "blocks/main";
+@import "blocks/title";
+@import "blocks/sort";
+@import "blocks/pagination";
+@import "blocks/content";
+@import "blocks/footer";
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

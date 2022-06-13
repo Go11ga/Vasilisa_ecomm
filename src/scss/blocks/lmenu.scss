@@ -1,0 +1,196 @@
+.lmenu {
+    padding-top: 20px;
+}
+
+.lmenu__title {
+    font-weight: 300;
+    font-style: normal;
+    font-size: 14px;
+    line-height: 21px;
+    color: $black;
+}
+
+.lmenu__group {
+    margin-top: 19px;
+}
+
+.lmenu__group--mt {
+    margin-top: 30px;
+}
+
+.lmenu__subtitle {
+    margin-bottom: 8px;
+
+    font-size: 16px;
+    line-height: 24px;
+    color: $black;
+}
+
+.lmenu__label {
+    margin-bottom: 2px;
+    display: flex;
+    align-items: center;
+}
+
+.lmenu__checkbox {
+    width: 16px;
+    height: 16px;
+    border-radius: 2px;
+
+    &:checked {
+        display: none;
+
+        + .lmenu__icon {
+            display: block;
+        }
+    }
+}
+
+.lmenu__icon {
+    width: 16px;
+    height: 16px;
+
+    display: none;
+}
+
+.lmenu__circle {
+    margin-bottom: 2px;
+    display: flex;
+    align-items: center;
+
+    position: relative;
+}
+
+.lmenu__checkcircle {
+    width: 0;
+    height: 0;
+
+    &:before {
+        display: block;
+        content: '';
+        width: 18px;
+        height: 18px;
+
+        border: 1px solid #D8D8D8;
+        border-radius: 50%;
+        background-color: $white;
+
+        position: absolute;
+        top: 4px;
+        left: 0;
+        z-index: 1;
+    }
+
+    &:after {
+        display: none;
+        content: '';
+        width: 22px;
+        height: 22px;
+
+        border: 1px solid #D8D8D8;
+        border-radius: 50%;
+        background-color: transparent;
+
+        position: absolute;
+        top: 2px;
+        left: -2px;
+        z-index: 20;
+    }
+
+    &:checked {
+        &:after {
+            display: block;
+        }
+        + .lmenu__iconcircle {
+            display: block;
+        }
+    }
+}
+
+.lmenu__checkcircle--pink {
+    &:before {
+        border: 1px solid #ECBBAF;
+        border-radius: 50%;
+        background-color: #ECBBAF;
+
+        position: absolute;
+        top: 4px;
+        left: 0;
+        z-index: 1;
+    }
+}
+
+.lmenu__checkcircle--grey {
+    &:before {
+        border: 1px solid #ECF0F5;
+        border-radius: 50%;
+        background-color: #ECF0F5;
+
+        position: absolute;
+        top: 4px;
+        left: 0;
+        z-index: 1;
+    }
+}
+
+.lmenu__checkcircle--yellow {
+    &:before {
+        border: 1px solid #FDBD4E;
+        border-radius: 50%;
+        background-color: #FDBD4E;
+
+        position: absolute;
+        top: 4px;
+        left: 0;
+        z-index: 1;
+    }
+}
+
+.lmenu__checkcircle--white {
+    &:before {
+        border: 1px solid radial-gradient(75.91% 75.91% at 64% 75.91%, rgba(255, 255, 255, 0.46) 0%, #EAEEF4 100%);;
+        border-radius: 50%;
+        background-color: radial-gradient(75.91% 75.91% at 64% 75.91%, rgba(255, 255, 255, 0.46) 0%, #EAEEF4 100%);;
+
+        position: absolute;
+        top: 4px;
+        left: 0;
+        z-index: 1;
+    }
+}
+
+.lmenu__iconcircle {
+    display: none;
+    width: 14px;
+    height: 9px;
+    fill: none;
+
+    position: absolute;
+    top: 9px;
+    left: 2px;
+    z-index: 10;
+}
+
+.lmenu__cat {
+    margin-top: 3px;
+    margin-left: 5px;
+    display: inline-block;
+
+    font-size: 16px;
+    line-height: 24px;
+    color: $black;
+}
+
+.lmenu__cat--circle {
+    margin-left: 22px;
+}
+
+.lmenu__qty {
+    margin-top: 3px;
+    margin-left: 5px;
+    display: inline-block;
+
+    font-size: 16px;
+    line-height: 24px;
+    color: #707070;
+}

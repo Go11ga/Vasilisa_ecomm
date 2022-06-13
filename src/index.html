@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+	<meta charset="UTF-8">
+	<link href="https://fonts.googleapis.com/css2?family=Ubuntu:wght@300&display=swap" rel="stylesheet">
+	<link rel="stylesheet" href="css/style.min.css">
+
+	<meta http-equiv="x-ua-compatible" content="ie=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+
+	<title>Василиса</title>
+</head>
+<body>
+	@@include('html/sprite.html', {})
+	@@include('html/header.html', {})
+
+    <div class="container">
+        <div class="wrapper">
+            <div class="wrapper__left">
+                @@include('html/lmenu.html', {})
+            </div>
+            <div class="wrapper__right">
+				@@include('html/filter.html', {})
+				@@include('html/main.html', {})
+				@@include('html/pagination.html', {})
+				@@include('html/content.html', {})
+            </div>
+        </div>
+    </div>
+
+    @@include('html/footer.html', {})
+
+	<script src="js/app.min.js"></script>
+	
+</body>
+</html>

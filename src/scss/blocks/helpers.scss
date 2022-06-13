@@ -1,0 +1,30 @@
+.container {
+    max-width: $width;
+    width: 100%;
+    margin: 0 auto;
+    padding: 0 15px;
+}
+
+.wrapper {
+    max-width: $width;
+    width: 100%;
+    margin: 0 auto;
+    padding-bottom: 80px;
+
+    display: flex;
+    justify-content: space-between;
+
+    border-bottom: 1px solid $black;
+}
+
+.wrapper__left {
+    max-width: 230px;
+    width: 100%;
+}
+
+.wrapper__right {
+    max-width: 1130px;
+    width: 100%;
+}
+
+

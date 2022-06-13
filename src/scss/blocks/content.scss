@@ -1,0 +1,26 @@
+.content {
+    padding-top: 60px;
+}
+
+.content__header {
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 35px;
+    color: $black;
+}
+
+.content__text {
+    margin-top: 5px;
+    margin-bottom: 40px;
+
+    font-family: 'Ubuntu', sans-serif;
+    font-weight: 300;
+    font-style: normal;
+    font-size: 16px;
+    line-height: 26px;
+    color: $black;
+
+    &:last-child {
+        margin-bottom: 0;
+    }
+}

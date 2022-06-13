@@ -1,0 +1,36 @@
+.logo {
+    margin: 22px 0;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.logo--footer {
+    margin: 0;
+    margin-right: 75px;
+}
+
+.logo__icon {
+    width: 42px;
+    height: 40px;
+
+    fill: $black;
+}
+
+.logo__icon--footer {
+    width: 65px;
+    height: 62px;
+}
+
+.logo__title {
+    font-weight: 700;
+    font-size: 18px;
+
+    text-transform: uppercase;
+}
+
+.logo__title--footer {
+    margin-top: 25px;
+    font-size: 28px;
+}
